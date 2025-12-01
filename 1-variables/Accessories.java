@@ -17,5 +17,7 @@ public class Accessories {
         float total = price + ((price * 18) /100);
 
         System.out.println("Total " + total);
+
+        sc.close();
     }
 }
