@@ -13,5 +13,6 @@ public class AreaSquare {
         int area = side*side;
 
         System.out.println("Area is " + area);
+        sc.close();
     }
 }
