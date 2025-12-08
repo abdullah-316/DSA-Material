@@ -23,5 +23,6 @@ public class TestMethod {
             System.out.println(value +" is an Odd Number");
         }
 
+        sc.close();
     }
 }
