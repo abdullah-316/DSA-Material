@@ -1,9 +1,9 @@
 public class Examples {
 
-    // public static void hello() {
-    //     System.out.println("Hello Bhai!");
-    //     System.out.println("Hello Bhai!");
-    // }
+    public static void hello() {
+        System.out.println("Hello Bhai!");
+        System.out.println("Hello Bhai!");
+    }
 
 
     public static int prod(int n1, int n2) {
@@ -23,10 +23,10 @@ public class Examples {
     
 
     public static void main(String[] args) {
-        // int cal = prod(5, 6);
-        // System.out.println(cal);
+        int cal = prod(5, 6);
+        System.out.println(cal);
 
-    //    swap(5, 10);
+       swap(5, 10);
 
 
     }
