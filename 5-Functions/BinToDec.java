@@ -18,6 +18,6 @@ public class BinToDec {
     }
     public static void main(String[] args) {
         
-        binToDec(101);
+        binToDec(1011);
     }
 }
