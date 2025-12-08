@@ -23,6 +23,6 @@ public class Binomial {
 
     public static void main(String[] args) {
         
-        System.out.println(binomial(5, 2));
+        System.out.println(binomial(6, 4));
     }
 }
