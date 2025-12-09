@@ -1,26 +1,28 @@
+import java.util.Arrays;
 
 public class SecondLargestAndSmallest {
     
-    // public static void secondSmallAndLarge(int num[]) {
+    public static void secondSmallAndLarge(int num[]) {
         
-    //     int large = Integer.MIN_VALUE;
-    //     int small = Integer.MAX_VALUE;
-    //     int first = 0, last = num.length;
+        int large = Integer.MIN_VALUE;
+        int small = Integer.MAX_VALUE;
+        int first = 0, last = num.length;
 
-    //     for (int i = 0; i < num.length; i++) {
-    //         Arrays.sort(num);
-    //         if (large < num[last - 2]) {
-    //             large = num[last-2];
-    //         }
-    //         if (small > num[first + 1]) {
-    //             small = num[first + 1];
-    //         }
-    //     }
-    //     System.out.println("Second largest Value is:"+large);
-    //     System.out.println("Second smallest Value is:"+small);
+        for (int i = 0; i < num.length; i++) {
+            Arrays.sort(num);
+            if (large < num[last - 2]) {
+                large = num[last-2];
+            }
+            if (small > num[first + 1]) {
+                small = num[first + 1];
+            }
+        }
+        System.out.println("Second largest Value is:"+large);
+        System.out.println("Second smallest Value is:"+small);
         
-    // }
+    }
 
+        // Optimal Solution
         public static void secondLargest(int arr[]) {
         int large = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
