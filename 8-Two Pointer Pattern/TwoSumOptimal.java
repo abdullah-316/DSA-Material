@@ -21,7 +21,7 @@ public class TwoSumOptimal {
         return new int[]{-1,-1};
     }
     public static void main(String[] args) {
-        int arr[] = {2,6,5,8,11};
+        int arr[] = {2,7,5,8,11};
         int n = 5;
         int target = 16;
         int index[] = two_sum(arr, n, target);
