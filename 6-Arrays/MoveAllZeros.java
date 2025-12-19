@@ -35,8 +35,8 @@ public class MoveAllZeros {
         
     }
     public static void main(String[] args) {
-        // int arr[] = {1,0,2,3,0,4,0,1};
-        int arr[] = {1,2,0,1,0,4,0};
+        int arr[] = {1,1,2,0,0,4,0,1};
+        // int arr[] = {1,2,0,1,0,4,0};
         zero(arr);
     }
 }
