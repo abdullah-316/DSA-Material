@@ -2,19 +2,19 @@ public class ContainerHeight {
     
     public static void container(int height[]) {
         
-        int start = 0, end = height.length-1;
+        int left = 0, right = height.length-1;
         int maxArea = 0;
 
-        while (start < end) {
+        while (left < right) {
             int area = 0;
-            area = Math.min(height[start], height[end]) * (end-start);
+            area = Math.min(height[left], height[right]) * (right-left);
             maxArea = Math.max(maxArea, area);
 
-            if (height[start] < height[end]) {
-                start++;
+            if (height[left] < height[right]) {
+                left++;
             }
             else{
-                end--;
+                right--;
             }
         }
         System.out.println("Max Area: "+maxArea);
