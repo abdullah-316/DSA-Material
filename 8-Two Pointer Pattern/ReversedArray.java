@@ -14,12 +14,16 @@ public class ReversedArray {
 
         }
     }
+
+    // Print Array
+    public static void printArr(int arr[]) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] +" ");
+        }
+    }
     public static void main(String[] args) {
         int num[] = {2,4,6,8,10};
-
         reversed(num);
-        for (int i = 0; i < num.length; i++) {
-            System.out.print(num[i] +" ");
-        }
+        printArr(num);
     }
 }
