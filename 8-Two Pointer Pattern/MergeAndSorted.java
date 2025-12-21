@@ -1,12 +1,14 @@
 public class MergeAndSorted {
 
     public static int[] mergeSorted(int arr1[], int arr2[]) {
+
         int n = arr1.length, m = arr2.length;
         int i = 0, j = 0;
+
         int newArr[] = new int[n + m];
         int count = 0;
-        while (i < n || j < m) {
 
+        while (i < n || j < m) {
             // Corner case to check if my i value is equal to the length
             if (i == n) {
                 newArr[count] = arr2[j];
@@ -47,7 +49,7 @@ public class MergeAndSorted {
     public static void main(String[] args) {
         int arr1[] = { 1, 3, 5 };
         int arr2[] = { 2, 4, 6 };
-        
+
         int merged[]= mergeSorted(arr1, arr2);
         printArr(merged);
     }
