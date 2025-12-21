@@ -14,9 +14,6 @@ public class Builtin {
         
         Integer arr[] = {5, 4, 1, 3, 2};
 
-        // Arrays.sort(arr);
-        // Arrays.sort(arr, 0 , 3);
-
         // Reverse
         Arrays.sort(arr, Collections.reverseOrder());
         printArr(arr);
