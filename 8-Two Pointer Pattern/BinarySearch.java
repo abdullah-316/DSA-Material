@@ -7,6 +7,7 @@ public class BinarySearch {
 
         while (start <= end) {
             
+            // Get mid value
             int mid = start + (end - start) / 2;
 
             if (key == numbers[mid]) {
