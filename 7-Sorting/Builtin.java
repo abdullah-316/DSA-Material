@@ -12,7 +12,7 @@ public class Builtin {
     }
     public static void main(String[] args) {
         
-        Integer arr[] = {5, 4, 1, 3, 2};
+        Integer arr[] = {1, 5, 3, 2, 4};
 
         // Reverse
         Arrays.sort(arr, Collections.reverseOrder());
