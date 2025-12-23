@@ -15,7 +15,7 @@ public class MissingElement {
     public static void main(String[] args) {
         int arr[] = {1,2,4,5};
         // int arr[] = {1,3};
-        int n = 3;
+        int n = 5;
 
         missing(arr, n);
     }
