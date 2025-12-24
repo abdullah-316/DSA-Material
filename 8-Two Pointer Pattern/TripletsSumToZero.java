@@ -52,7 +52,6 @@ public class TripletsSumToZero {
         List<int[]> index = tripletsZero(arr, target);
 
         for (int[] pair : index) {
-            // System.out.println("[" + pair[0] + ", " + pair[1] + ", " + pair[2] + "]");
             System.out.println(Arrays.toString(pair));
         }
     }
