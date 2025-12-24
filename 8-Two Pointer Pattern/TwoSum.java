@@ -1,18 +1,19 @@
 public class TwoSum {
 
-    public static int[] two_sum(int num[], int target) {
+    // public static int[] two_sum(int num[], int target) {
 
-        for (int i = 0; i < num.length; i++) {
-            for (int j = 1; j < num.length; j++) {
+    //     for (int i = 0; i < num.length; i++) {
+    //         for (int j = 1; j < num.length; j++) {
 
-                if (num[i] + num[j] == target) {
-                    return new int[] { i, j };
-                }
-            }
-        }
-        return new int[] { -1, -1 };
-    }
+    //             if (num[i] + num[j] == target) {
+    //                 return new int[] { i, j };
+    //             }
+    //         }
+    //     }
+    //     return new int[] { -1, -1 };
+    // }
 
+    // Optimal
     public static int[] twoSum(int nums[], int target) {
         int n = nums.length;
         int i = 0, j = n - 1;
