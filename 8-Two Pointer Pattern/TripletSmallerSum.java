@@ -24,9 +24,8 @@ public class TripletSmallerSum {
         return ans;
     }
     public static void main(String[] args) {
-        // int nums[] = {-2,0,1,3};
         int nums[] = {5, -1, 3, -4, 7};
-        int target = 6;
+        int target = 4;
         System.out.println(smallerTriplet(nums, target));
     }
 }
