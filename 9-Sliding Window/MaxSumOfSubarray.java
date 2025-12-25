@@ -19,8 +19,6 @@ public class MaxSumOfSubarray {
     public static void main(String[] args) {
         int arr[] = {100, 200, 300, 400};
         int k = 2;
-        // int arr[] = {1, 4, 2, 10, 23, 3, 1, 0, 20};
-        // int k = 4;
         System.out.println(maxSubarraySum(arr, k));
     }
 }
