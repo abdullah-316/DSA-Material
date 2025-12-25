@@ -1,26 +1,7 @@
 public class MaxSumOfSubarray {
     
     public static int maxSubarraySum(int arr[], int k) {
-        // int n = arr.length;
-        // int low = 0, high = k-1;
-        // int sum = 0;
-
-        // for (int i = low; i <= high; i++) {
-        //     sum = sum + arr[i];
-        // }
-
-        // int maxSum = 0;
-        // while (high < n) {
-        //     maxSum = Math.max(maxSum, sum);
-        //     low++;
-        //     high++;
-        //     if (high == n) break;
-        //     sum = sum - arr[low-1] + arr[high];
-        // }
-        // return maxSum;
-
-
-        // Easy or Alternate way
+    
         int sum = 0;
 
         for (int i = 0; i < k; i++) {
