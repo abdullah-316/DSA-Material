@@ -25,8 +25,8 @@ public class ShortestPath {
         
     }
     public static void main(String[] args) {
-        // String str = "WNEENESENNN";
-        String str = "SNS";
+        String str = "WNEENESENNN";
+        // String str = "SNS";
         checkShortestPath(str);
     }
 }
