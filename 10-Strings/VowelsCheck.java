@@ -16,7 +16,7 @@ public class VowelsCheck {
         System.out.println("Vowels Count:" + count);
     }
     public static void main(String[] args) {
-        String str = "Amberiou";
+        String str = "Aesthetic";
         vowels(str.toLowerCase());
     }
 }
