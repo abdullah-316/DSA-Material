@@ -1,6 +1,6 @@
 public class LargestString {
     
-    public static void checkLargestStr(String fruits[]) {
+    public static String checkLargestStr(String fruits[]) {
         
         String largest = fruits[0];
         for (int i = 0; i < fruits.length; i++) {
@@ -8,12 +8,12 @@ public class LargestString {
                 largest = fruits[i];
             }
         }
-        System.out.println("Largest is: " + largest);
+        return largest;
     }
     public static void main(String[] args) {
 
         String fruits[] = {"apple", "mango", "banana"};
-        checkLargestStr(fruits);
+        System.out.println(checkLargestStr(fruits));
 
     }
 }
