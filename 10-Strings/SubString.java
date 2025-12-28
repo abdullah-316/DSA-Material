@@ -10,6 +10,6 @@ public class SubString {
     public static void main(String[] args) {
         String str = "YeetMania";
         System.out.println(subString(str, 0, 4));
-        System.out.println(str.substring(4, 9));
+        System.out.println(str.substring(5, 9));
     }
 }
