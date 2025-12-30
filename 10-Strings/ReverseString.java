@@ -17,7 +17,7 @@ public class ReverseString {
         return sb.toString();
     }
     public static void main(String[] args) {
-        String str = "OTC";
+        String str = "TAB";
         System.out.println(reverse(str));
     }
 }
