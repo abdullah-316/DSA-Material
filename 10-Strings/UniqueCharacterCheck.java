@@ -12,7 +12,7 @@ public class UniqueCharacterCheck {
     }
 
     public static void main(String[] args) {
-        String str = "abbacda";
+        String str = "abbacddea";
         unique(str);
     }
 }
