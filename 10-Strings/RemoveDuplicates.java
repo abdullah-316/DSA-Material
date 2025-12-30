@@ -15,7 +15,7 @@ public class RemoveDuplicates {
     }
 
     public static void main(String[] args) {
-        String str = "abbacda";
+        String str = "aaabbcccdd";
         characterCheck(str);
     }
 }
