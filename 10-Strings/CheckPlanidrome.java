@@ -2,14 +2,14 @@ public class CheckPlanidrome {
     
     public static Boolean palindrome(String str) {
 
-        // int start = 0, end = n-1;
-        //   while (start <= end) {
-        //     if (str.charAt(start) != str.charAt(end)) {
+        // int left = 0, right = n-1;
+        //   while (left <= right) {
+        //     if (str.charAt(left) != str.charAt(right)) {
         //         return false;
                 
         //     }
-        //     start++;
-        //     end--;
+        //     left++;
+        //     right--;
         // }
         // return true;
 
