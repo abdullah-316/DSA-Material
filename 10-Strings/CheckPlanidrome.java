@@ -26,7 +26,7 @@ public class CheckPlanidrome {
 
     }
     public static void main(String[] args) {
-        String str = "abba";
+        String str = "madam";
         System.out.println(palindrome(str));
     }
 }
