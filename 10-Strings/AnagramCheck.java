@@ -3,8 +3,8 @@ import java.util.Arrays;
 public class AnagramCheck {
 
     public static void main(String[] args) {
-        String str1 = "race";
-        String str2 = "care";
+        String str1 = "heart";
+        String str2 = "earth";
 
         str1 = str1.toLowerCase();
         str2 = str2.toLowerCase();
