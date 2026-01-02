@@ -20,7 +20,7 @@ public class UppercaseConversion {
 
     public static void main(String[] args) {
 
-        String str = "hi, i am abdullah";
+        String str = "hi, my work is ready";
         uppercase(str);
     }
 }
