@@ -12,7 +12,7 @@ public class WordFlipper {
         return sb.toString().trim();
     }
     public static void main(String[] args) {
-        String sentence = "Gaming is Fun";
+        String sentence = "Coding is Fun";
         System.out.println(flipper(sentence));
     }
 }
