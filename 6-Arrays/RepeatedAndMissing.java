@@ -16,13 +16,13 @@ public class RepeatedAndMissing {
             sum += num;
         }
         int expectedSum = n * (n + 1) / 2;
-        int missing = (expectedSum - sum) - duplicate;
+        int missing = (expectedSum - sum) + duplicate;
 
         return new int[] { duplicate, missing };
     }
 
     public static void main(String[] args) {
-        int num[] = { 3, 1, 2, 5, 3 };
+        int num[] = { 1, 5, 4, 5, 3 };
         int n = 6;
 
         int index[] = check(num, n);
