@@ -27,9 +27,9 @@ public class Largest {
         }
     }
     public static void main(String[] args) {
-        int matrix[][] = {{2,4,8},
+        int matrix[][] = {{2,5,8},
                           {3,6,9},     
-                          {1,5,7}};
+                          {1,4,7}};
         int largeVal = largest(matrix);
         print(matrix, largeVal);
     }
