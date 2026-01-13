@@ -23,8 +23,8 @@ public class Smallest {
 
     public static void main(String[] args) {
         int matrix[][] = {{2,4,8},
-                          {3,6,9},     
-                          {1,0,7}};
+                          {3,0,9},     
+                          {1,6,7}};
 
     smallest(matrix);
     }
