@@ -13,8 +13,8 @@ public class LinkList {
     }
 
     // This is the only thing we MUST remember (the start)
-     Node head;
-     int size;
+    Node head;
+    int size;
 
     // A method to add a new "box" to the end of the list
     void add(int newData) {
