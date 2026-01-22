@@ -35,7 +35,7 @@ public class LinkList {
         current.next = newNode;
     }
 
-    // A method to print all items
+    // A method to print all values
     public void display() {
         Node current = head;
         while (current != null) {
