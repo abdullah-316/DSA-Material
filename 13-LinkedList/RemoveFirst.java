@@ -65,10 +65,11 @@ public class RemoveFirst {
 
     public static void main(String[] args) {
         RemoveFirst list = new RemoveFirst();
+        list.add(5);
         list.add(10);
         list.add(20);
         list.add(30);
-        list.display();
+        // list.display();
         list.removeFirst();
         list.display();
         System.out.println(list.size);
