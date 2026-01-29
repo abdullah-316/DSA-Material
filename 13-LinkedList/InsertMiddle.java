@@ -57,10 +57,10 @@ public class InsertMiddle {
 
     public static void main(String[] args) {
        InsertMiddle list = new InsertMiddle();
-        list.add(10);
-        list.add(20);
-        list.add(30);
-        list.insertMiddle(25, 2);
+        list.add(100);
+        list.add(200);
+        list.add(400);
+        list.insertMiddle(300, 2);
 
         list.display();
     }
