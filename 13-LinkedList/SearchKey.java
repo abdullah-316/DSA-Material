@@ -60,7 +60,7 @@ public class SearchKey {
         list.add(40);
         list.add(50);
         list.display();
-        System.out.println(list.search(4));
+        System.out.println(list.search(40));
     }
 }
 
