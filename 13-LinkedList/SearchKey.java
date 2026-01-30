@@ -54,11 +54,11 @@ public class SearchKey {
 
     public static void main(String[] args) {
         SearchKey list = new SearchKey();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        list.add(4);
-        list.add(5);
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        list.add(40);
+        list.add(50);
         list.display();
         System.out.println(list.search(4));
     }
