@@ -76,7 +76,7 @@ public class RemoveLast {
         list.add(20);
         list.add(30);
         list.add(40);
-        list.display();
+        // list.display();
         list.removeLast();
         list.display();
         System.out.println(list.size);
